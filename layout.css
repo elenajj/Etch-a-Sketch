@@ -1,0 +1,51 @@
+#gameBoardBorder {
+  width: 515px;
+  height: 515px;
+  border-width: 1px;
+  display: block;
+  line-height: 0;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+#gameBoardBorder > * {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: satisfy;
+  color: rgb(48, 43, 0);
+  font-size: 50px;
+
+}
+
+body{
+  background-color: rgb(163, 70, 70);
+}
+
+.sketch {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(240, 247, 247);
+  border: solid;
+  border-width: 1px;
+}
+
+.button{
+ background-color: seashell;
+ border: none;
+ border-radius: 8px;
+ padding: 10px 25px 10px 25px;
+ font-size: large;
+ box-shadow: none;
+ display: block;
+ margin-top: 35px;
+ margin-left:auto;
+ margin-right:auto;
+ font-family: "Trebuchet MS", Helvetica, sans-serif;
+ font-weight: bold;
+}
